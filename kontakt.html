@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HOFFMANNs | Kontakt</title>
+<meta name="description" content="Kontakt HOFFMANNs Hotel und Restaurant" />
+<meta name="keywords" content="HOFFMANNs Hotel und Restaurant" />
+<meta name="robots" content="index,follow" />
+<link rel="icon" href="/favicon.ico" type="image/ico" />
+<style type="text/css">
+body { margin:0px; padding:0px; background:#8e999b url("images/body_bg.gif") repeat-x 0 0; text-align:center; color:#425050; font-family:Verdana, Geneva, sans-serif; font-size:12px;}
+a:link, a:visited { color:#425050;}
+h1 { font-weight:normal; font-size:22px; line-height:26px; margin:0 0 16px 0; font-family:"Times New Roman", Times, serif; font-style:italic;}
+p { margin:0px; padding-bottom:10px;}
+p.content { line-height:18px;}
+#content { width:1049px; height:773px; margin:0px auto; text-align:left; background:url(images/kontakt_bg.jpg);}
+#toplinks { padding:181px 0 0 324px; height:35px;}
+#toplinks a { text-decoration:none; color:#8e999b; padding-left:11px; padding-top:3px; width:82px; display:block; float:left;}
+#toplinks a:hover, #toplinks a:focus, #toplinks a.active { color:#697778;}
+.col1 { width:145px; padding-right:25px; float:left; line-height:16px; text-align:right;}
+.col2 { width:400px;  float:left; line-height:16px;}
+input, textarea { border:1px solid #8E999B; width:390px; color:#425050; font-family:Verdana, Geneva, sans-serif; font-size:12px; padding:3px;}
+textarea { height:82px;}
+input.submit { background-color:#7C8789; width:auto; color:#d8dede; padding:2px 10px; cursor:pointer;}
+input.submit:hover { background-color:#8E999B;} 
+#foot { height:30px; background:#7c8789; width:1049px; margin:0px auto; text-align:center; color:#d8dede; padding-top:10px;}
+</style>
+</head>
+<body>
+<div id="content">
+  <div id="toplinks"><a class="active" href="kontakt.html" title="Kontakt">Kontakt</a><a href="index.html" title="Home">Home</a><a href="impressum.html" title="Impressum">Impressum</a>
+  <div style="float:none;clear:left;height:0px;line-height:0px;"></div></div>
+  <form name="rwkontakt" action="kontaktauswertung.php" method="post" style="padding-top: 155px; padding-left: 324px; padding-right: 30px; max-height: 400px;">
+    <p>Bitte füllen Sie mindestens die mit einem Sternchen (*) markierten Felder aus.</p>
+    <div class="col1"><p>* Name</p></div>
+    <div class="col2"><p><input type="text" name="Name" value="" /></p></div>
+    <div class="col1"><p>* E-Mail-Adresse</p></div>
+    <div class="col2"><p><input type="text" name="Email" value="" /></p></div>
+    <div class="col1"><p>Telefonnummer</p></div>
+    <div class="col2"><p><input type="text" name="Telefon" value="" /></p></div>
+    <div class="col1"><p>* Mitteilung</p></div>
+    <div class="col2"><p><textarea name="Mitteilung" rows="5" cols="20"></textarea></p></div>
+    <div class="col1"><p>* Sicherheitsabfrage</p></div>
+    <div class="col2"><p>Was steht in der linken Grafik?<br /><img src="images/captcha.gif" align="top" alt="sicherheitsgrafik" /> <input type="text" name="captcha" style="width: 286px;" /></p></div>
+    <div class="col1">&nbsp;</div>
+    <div class="col2"><p><label><input type="checkbox"  onchange="document.getElementById('submit').disabled = !this.checked;" style="width: auto;" />Ich habe die Datenschutzbedingungen gelesen und stimme diesen zu.</label></p></div>
+    <div class="col1">&nbsp;</div>
+    <div class="col2"><p><input class="submit" id="submit" type="submit" value="absenden" disabled /></p></div>
+    <div style="float:none;clear:left;height:0px;line-height:0px;"></div>
+  </form>
+</div>
+<div id="foot">Bahnhofstraße 6, 54470 Bernkastel-Kues | Telefon 06531 - 2575 | Fax 06531 - 970148 | info@hoffmanns-restaurant.com | <a href="datenschutz.html" title="Datenschutz">Datenschutz</a></div>
+</body>
+</html>
